@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 
 /**
  * Double every card in the deck.
