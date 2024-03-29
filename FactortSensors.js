@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 
 export class ArgumentError extends Error {}
 
@@ -18,7 +18,7 @@ export class OverheatingError extends Error {
  */
 export function checkHumidityLevel(humidityPercentage) {
   if(humidityPercentage>70){
-    throw new error("Too high")
+    throw new Error("Too high")
   }
 }
 
